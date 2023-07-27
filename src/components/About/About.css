@@ -1,0 +1,68 @@
+:root {
+    --gradientAbout:linear-gradient(
+        145deg,
+        #000000,
+        #343434c2,
+        #36353582,
+        #36353534,
+        #f5f5f5e3,
+        #ffffff
+        
+        
+    );
+}
+
+.container-about{ 
+    width:100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: var(--gradientAbout); 
+}
+
+.section-about img {
+    max-width: 20%;
+    padding-left:10px ;
+}
+
+.section-about {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto;
+    max-width: 75vw;
+    max-height: 90vh;
+    gap:1.3rem;
+}
+
+h6{
+    font-family: Calibri, sans-serif;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px rgb(253, 252, 252) solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.section-about p{
+    margin-top:20px;
+    text-align:left;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 999px) {
+    h6{
+        font-family: Calibri, sans-serif;
+        width: 50vw;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px rgb(253, 252, 252) solid;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+}

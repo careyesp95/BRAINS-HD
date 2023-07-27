@@ -1,0 +1,23 @@
+.container-CasosClient{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+}
+
+.title-CasosClient{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 999px) {
+    .title-CasosClient{
+        font-weight: 400;
+        align-items:center;
+    }
+}
