@@ -4,20 +4,22 @@
     background-color:black;
     align-items: center;
     margin:0 auto;
+    border-top: 1px border white;
 }
 
 .heading-center{
     text-align: center;
     color:white;
     margin:0;
-    padding-top: 50px;
+    padding-top: 10px;
+    border-top: 1px solid white;
 }
 
 
 .container-form {
     width:90%;
     max-width:1000px;
-    margin:1.6em auto;
+    margin: auto;
 
     display:grid;
     gap:1.6em;
@@ -166,7 +168,7 @@
         text-align: center;
         color:white;
         margin:0;
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
     .container-form {
@@ -227,13 +229,14 @@
         background-color:black;
         align-items: center;
         margin:0 auto;
+        
     }
 
     .heading-center{
         text-align: center;
         color:white;
         margin:0;
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
     .container-form {

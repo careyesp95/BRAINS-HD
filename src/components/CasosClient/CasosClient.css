@@ -6,6 +6,7 @@
     height: 100vh;
     width: 100vw;
     background-color:black;
+    border-top:1px solid white;
 }
 
 .title-CasosClient{
@@ -13,6 +14,7 @@
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2rem;
+
 }
 
 @media only screen and (max-width: 999px) {
